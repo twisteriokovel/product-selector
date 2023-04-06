@@ -3,5 +3,5 @@
 </template>
 
 <script setup lang="ts">
-  const name ="Vue app"
+  const name = 'Vue app'
 </script>
