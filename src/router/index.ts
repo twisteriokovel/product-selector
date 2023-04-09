@@ -11,7 +11,7 @@ declare module 'vue-router' {
 }
 
 export const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/product-selector/'),
   routes
 })
 
