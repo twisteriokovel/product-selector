@@ -6,8 +6,10 @@ Product selector basic concept
 
 💡 [Vue 3](https://vuejs.org/) + Composition API\
 💡 [Pinia](https://pinia.vuejs.org/)\
+💡 [Vue router](https://router.vuejs.org/)\
 💡 [TypeScript](https://www.typescriptlang.org/docs/)\
 💡 [Vite](https://vitejs.dev/)\
+💡 [Naive UI](https://www.naiveui.com/)
 
 ## Live demo
 

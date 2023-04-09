@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <NH1>Vue code challenge</NH1>
+    <NH1>Product selector</NH1>
     <p>
       This project is a web app that allows users to customize prints for flyers, posters, and business cards. Users are
       able to select from a variety of options such as size, material, and print type. Additionally, the app includes
