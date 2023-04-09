@@ -6,11 +6,9 @@ module.exports = {
     node: true
   },
   extends: ['eslint:recommended', 'plugin:vue/vue3-essential', 'plugin:@typescript-eslint/recommended', 'prettier'],
-  overrides: [],
   parser: 'vue-eslint-parser',
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    parser: '@typescript-eslint/parser'
   },
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
@@ -18,6 +16,7 @@ module.exports = {
     'vue/no-multiple-template-root': 0,
     'vue/require-explicit-emits': 2,
     'vue/custom-event-name-casing': [2, 'kebab-case'],
-    'vue/component-name-in-template-casing': [2, 'PascalCase']
+    'vue/component-name-in-template-casing': [2, 'PascalCase'],
+    'vue/multi-word-component-names': 0
   }
 }
