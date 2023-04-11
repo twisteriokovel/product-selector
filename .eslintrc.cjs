@@ -18,5 +18,11 @@ module.exports = {
     'vue/custom-event-name-casing': [2, 'kebab-case'],
     'vue/component-name-in-template-casing': [2, 'PascalCase'],
     'vue/multi-word-component-names': 0
-  }
+  },
+  overrides: [
+    {
+      files: ['./**/*.test.{j,t}s?(x)'],
+      env: { jest: true }
+    }
+  ]
 }

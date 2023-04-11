@@ -16,13 +16,13 @@ export interface Property {
   title: string
   locked: boolean
   options: PropertyOption[]
-  viewMode: {
+  viewMode?: {
     reseller?: string
     storefront?: string
   }
-  type: string
-  optionsInSummary: string[]
-  parentOptions: PropertyOption[]
+  type?: string
+  optionsInSummary?: string[]
+  parentOptions?: PropertyOption[]
 }
 
 export interface PropertyOption {
